@@ -18,7 +18,7 @@ export default function SectionHeading({
         <div>
           {label && (
             <span className="font-mono text-xs text-rust dark:text-spice uppercase tracking-widest font-semibold block mb-2">
-              // {label}
+              {label}
             </span>
           )}
           <h2 className="font-serif text-3xl md:text-5xl font-semibold text-ink dark:text-paper leading-tight tracking-tight">

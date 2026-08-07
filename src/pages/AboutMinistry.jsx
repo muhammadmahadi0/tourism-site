@@ -25,7 +25,7 @@ export default function AboutMinistry() {
           </div>
 
           <span className="font-mono text-xs text-rust dark:text-spice uppercase tracking-widest font-semibold block mb-2">
-            // {t('ministryHeaderLabel')}
+            {t('ministryHeaderLabel')}
           </span>
 
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-ink dark:text-paper leading-tight">

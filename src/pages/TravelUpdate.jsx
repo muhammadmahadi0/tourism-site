@@ -7,7 +7,8 @@ import { formatDate } from '../lib/utils';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function TravelUpdate() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const isBN = language === 'BN';
   const [activeSeverity, setActiveSeverity] = useState('all');
 
   const filteredUpdates = activeSeverity === 'all'
@@ -68,7 +69,7 @@ export default function TravelUpdate() {
                       {t(item.severity === 'warning' ? 'severityWarning' : 'severityInfo')}
                     </Chip>
                     <Chip variant="default" size="sm">
-                      {item.category}
+                      {isBN && item.category_bn ? item.category_bn : item.category}
                     </Chip>
                   </div>
 
@@ -79,15 +80,15 @@ export default function TravelUpdate() {
                 </div>
 
                 <h3 className="font-serif text-xl sm:text-2xl font-semibold text-ink dark:text-paper leading-snug">
-                  {item.title}
+                  {isBN && item.title_bn ? item.title_bn : item.title}
                 </h3>
 
                 <p className="text-sm font-sans text-ink/80 dark:text-paper/80 font-medium leading-relaxed">
-                  {item.summary}
+                  {isBN && item.summary_bn ? item.summary_bn : item.summary}
                 </p>
 
                 <div className="p-4 rounded-xl bg-paper-light dark:bg-ink border border-forest/10 dark:border-forest/30 text-xs font-sans text-ink/85 dark:text-paper/85 leading-relaxed">
-                  {item.details}
+                  {isBN && item.details_bn ? item.details_bn : item.details}
                 </div>
 
               </div>

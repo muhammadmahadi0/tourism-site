@@ -113,10 +113,10 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-6">
-            <span className="hover:text-paper transition-colors cursor-pointer">Privacy Policy</span>
-            <span className="hover:text-paper transition-colors cursor-pointer">Accessibility Statement</span>
-            <span className="hover:text-paper transition-colors cursor-pointer">RTI Desk</span>
-            <span className="hover:text-paper transition-colors cursor-pointer">Terms of Service</span>
+            <span className="hover:text-paper transition-colors cursor-pointer">{t('footerPrivacy')}</span>
+            <span className="hover:text-paper transition-colors cursor-pointer">{t('footerAccessibility')}</span>
+            <span className="hover:text-paper transition-colors cursor-pointer">{t('footerRti')}</span>
+            <span className="hover:text-paper transition-colors cursor-pointer">{t('footerTerms')}</span>
           </div>
         </div>
 

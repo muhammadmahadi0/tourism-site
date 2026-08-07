@@ -49,7 +49,7 @@ export default function PlacesToVisit() {
         <AnimatedReveal>
           <div className="mb-10 text-center max-w-3xl mx-auto">
             <span className="font-mono text-xs text-rust dark:text-spice uppercase tracking-widest font-semibold block mb-2">
-              // {t('placesHeaderLabel')}
+              {t('placesHeaderLabel')}
             </span>
             <h1 className="font-serif text-4xl md:text-6xl font-semibold text-ink dark:text-paper leading-tight">
               {t('placesHeaderTitle')}

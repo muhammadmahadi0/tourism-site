@@ -5,7 +5,10 @@ import Chip from './Chip';
 import { useLanguage, CATEGORY_KEYS, REGION_KEYS } from '../../context/LanguageContext';
 
 export default function PlaceCard({ place, isFeatured = false, className = '' }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+  const isBN = language === 'BN';
+  const placeName = isBN && place.name_bn ? place.name_bn : place.name;
+  const placeDesc = isBN && place.shortDescription_bn ? place.shortDescription_bn : place.shortDescription;
   return (
     <Link
       to={`/places-to-visit/${place.id}`}
@@ -48,11 +51,11 @@ export default function PlaceCard({ place, isFeatured = false, className = '' })
           </div>
           
           <h3 className="font-serif text-xl md:text-2xl font-semibold text-white group-hover:text-spice transition-colors line-clamp-1">
-            {place.name}
+            {placeName}
           </h3>
 
           <p className="mt-1.5 text-xs md:text-sm text-paper/85 line-clamp-2 font-sans font-normal leading-relaxed">
-            {place.shortDescription}
+            {placeDesc}
           </p>
         </div>
       </div>

@@ -2,37 +2,53 @@
   {
     "id": "update-001",
     "title": "Monsoon Season Coastal & Riverine Safety Guidelines",
+    "title_bn": "বর্ষা মৌসুমে উপকূলীয় ও নদীপথ নিরাপত্তা নির্দেশিকা",
     "severity": "warning",
     "publishedAt": "2026-08-01",
     "category": "Weather Alert",
+    "category_bn": "আবহাওয়া সতর্কতা",
     "summary": "Heavy monsoon rainfall and high river tides reported across Sylhet, Sunamganj, and the Bay of Bengal coast. Water vessel operators advised to keep updated on sea danger signals.",
-    "details": "The Bangladesh Meteorological Department has issued Signal No. 3 for sea ports. Tourists visiting Saint Martin's Island, Cox's Bazar, and Ratargul Swamp Forest are advised to follow local guide instructions and avoid entering open water during heavy downpours. Boat trips in Ratargul and Tanguar Haor must use life jackets at all times."
+    "summary_bn": "সিলেট, সুনামগঞ্জ এবং বঙ্গোপসাগর উপকূলে ভারী বর্ষণ ও নদীর জোয়ার রিপোর্ট করা হয়েছে। জলযান অপারেটরদের সমুদ্রের বিপদ সংকেত সম্পর্কে আপডেট থাকতে বলা হয়েছে।",
+    "details": "The Bangladesh Meteorological Department has issued Signal No. 3 for sea ports. Tourists visiting Saint Martin's Island, Cox's Bazar, and Ratargul Swamp Forest are advised to follow local guide instructions and avoid entering open water during heavy downpours. Boat trips in Ratargul and Tanguar Haor must use life jackets at all times.",
+    "details_bn": "বাংলাদেশ আবহাওয়া অধিদপ্তর সমুদ্রবন্দরে ৩ নম্বর সংকেত জারি করেছে। সেন্ট মার্টিনস দ্বীপ, কক্সবাজার ও রাতারগুল জলাবন পরিদর্শনকারী পর্যটকদের স্থানীয় গাইডের নির্দেশনা মানতে এবং ভারী বৃষ্টির সময় খোলা জলে প্রবেশ এড়াতে পরামর্শ দেওয়া হয়েছে। রাতারগুল ও টাঙ্গুয়ার হাওরে নৌকা ভ্রমণে সর্বদা লাইফ জ্যাকেট ব্যবহার করতে হবে।"
   },
   {
     "id": "update-002",
     "title": "Digital Eco-Permit System Launched for Sundarbans Travel",
+    "title_bn": "সুন্দরবন ভ্রমণে ডিজিটাল ইকো-পারমিট ব্যবস্থা চালু",
     "severity": "info",
     "publishedAt": "2026-07-25",
     "category": "Policy Notice",
+    "category_bn": "নীতি বিজ্ঞপ্তি",
     "summary": "Foreign and domestic tourists can now apply online for Forest Department permits 48 hours prior to entering Sundarbans Reserve Forest.",
-    "details": "To streamline entry at Mongla, Joymoni, and Harbaria checkposts, the Ministry of Environment and Tourism has launched an integrated online entry permit portal. Tour operators can upload passenger manifests directly, eliminating manual paper queues."
+    "summary_bn": "বিদেশী ও দেশীয় পর্যটকরা এখন সুন্দরবন সংরক্ষিত বনে প্রবেশের ৪৮ ঘণ্টা আগে অনলাইনে বন বিভাগের অনুমতিপত্রের জন্য আবেদন করতে পারবেন।",
+    "details": "To streamline entry at Mongla, Joymoni, and Harbaria checkposts, the Ministry of Environment and Tourism has launched an integrated online entry permit portal. Tour operators can upload passenger manifests directly, eliminating manual paper queues.",
+    "details_bn": "মংলা, জয়মনি ও হারবাড়িয়া চেকপোস্টে প্রবেশ সহজ করতে পরিবেশ ও পর্যটন মন্ত্রণালয় একটি সমন্বিত অনলাইন প্রবেশ অনুমতিপত্র পোর্টাল চালু করেছে। ট্যুর অপারেটররা সরাসরি যাত্রীর তালিকা আপলোড করতে পারবেন, যা ম্যানুয়াল কাগজের লাইন দূর করবে।"
   },
   {
     "id": "update-003",
     "title": "Expanded Visa-on-Arrival Facilities at Hazrat Shahjalal International Airport",
+    "title_bn": "হযরত শাহজালাল আন্তর্জাতিক বিমানবন্দরে ভিসা-অন-অ্যারাইভাল সুবিধা সম্প্রসারিত",
     "severity": "info",
     "publishedAt": "2026-07-10",
     "category": "Visa & Immigration",
+    "category_bn": "ভিসা ও অভিবাসন",
     "summary": "Eligible international tourists can obtain a 30-day Visa-on-Arrival at Dhaka (DAC) and Chittagong (CGP) international airports.",
-    "details": "Visa-on-arrival is available for citizens of over 60 countries traveling for tourism purposes. Travelers must present a confirmed hotel booking, return flight ticket, and minimum $500 USD equivalent in funds. Digital card payment counters are now active at DAC Terminal 1."
+    "summary_bn": "যোগ্য আন্তর্জাতিক পর্যটকরা ঢাকা (DAC) ও চট্টগ্রাম (CGP) আন্তর্জাতিক বিমানবন্দরে ৩০ দিনের ভিসা-অন-অ্যারাইভাল নিতে পারবেন।",
+    "details": "Visa-on-arrival is available for citizens of over 60 countries traveling for tourism purposes. Travelers must present a confirmed hotel booking, return flight ticket, and minimum $500 USD equivalent in funds. Digital card payment counters are now active at DAC Terminal 1.",
+    "details_bn": "পর্যটন উদ্দেশ্যে ভ্রমণকারী ৬০টিরও বেশি দেশের নাগরিকদের জন্য ভিসা-অন-অ্যারাইভাল পাওয়া যাচ্ছে। ভ্রমণকারীদের নিশ্চিত হোটেল বুকিং, রিটার্ন ফ্লাইট টিকিট এবং সর্বনিম্ন ৫০০ ডলার সমতুল্য অর্থ দেখাতে হবে। DAC টার্মিনাল ১-এ ডিজিটাল কার্ড পেমেন্ট কাউন্টার এখন সক্রিয়।"
   },
   {
     "id": "update-004",
     "title": "Sajek Valley & Bandarban Hill District Travel Regulations Update",
+    "title_bn": "সাজেক উপত্যকা ও বান্দরবান পার্বত্য জেলার ভ্রমণ বিধিমালা হালনাগাদ",
     "severity": "warning",
     "publishedAt": "2026-06-28",
     "category": "Travel Advisory",
+    "category_bn": "ভ্রমণ নির্দেশিকা",
     "summary": "Foreign passport holders traveling to Hill Tracts districts must register at local district magistrate offices or checkposts upon arrival.",
-    "details": "For safety and security compliance, international travelers planning to visit Sajek Valley, Nilgiri, or Boga Lake are requested to submit passport copies at the Khagrachhari or Bandarban tourism registration desks. Local Chander Gari jeep escorts operate from 8:30 AM to 3:30 PM daily."
+    "summary_bn": "পার্বত্য জেলায় ভ্রমণকারী বিদেশী পাসপোর্টধারীদের আগমনের পর স্থানীয় জেলা প্রশাসক কার্যালয় বা চেকপোস্টে নিবন্ধন করতে হবে।",
+    "details": "For safety and security compliance, international travelers planning to visit Sajek Valley, Nilgiri, or Boga Lake are requested to submit passport copies at the Khagrachhari or Bandarban tourism registration desks. Local Chander Gari jeep escorts operate from 8:30 AM to 3:30 PM daily.",
+    "details_bn": "নিরাপত্তা মেনে চলার জন্য, সাজেক উপত্যকা, নীলগিরি বা বগালেক পরিদর্শনে আগ্রহী আন্তর্জাতিক ভ্রমণকারীদের খাগড়াছড়ি বা বান্দরবান পর্যটন নিবন্ধন ডেস্কে পাসপোর্টের কপি জমা দিতে বলা হচ্ছে। স্থানীয় চান্দের গাড়ি (জিপ) এসকর্ট প্রতিদিন সকাল ৮:৩০ থেকে বিকেল ৩:৩০ পর্যন্ত চলে।"
   }
 ]

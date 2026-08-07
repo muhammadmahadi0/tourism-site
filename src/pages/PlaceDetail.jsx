@@ -7,9 +7,16 @@ import { MapPin, Calendar, Compass, ArrowLeft, Star, Navigation, CheckCircle2 } 
 import { useLanguage, CATEGORY_KEYS, REGION_KEYS } from '../context/LanguageContext';
 
 export default function PlaceDetail() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const { placeId } = useParams();
   const place = placesData.find(p => p.id === placeId) || placesData[0];
+  const isBN = language === 'BN';
+  const placeName = isBN && place.name_bn ? place.name_bn : place.name;
+  const placeShortDesc = isBN && place.shortDescription_bn ? place.shortDescription_bn : place.shortDescription;
+  const placeDesc = isBN && place.description_bn ? place.description_bn : place.description;
+  const placeBestTime = isBN && place.bestTimeToVisit_bn ? place.bestTimeToVisit_bn : place.bestTimeToVisit;
+  const placeHighlights = isBN && place.highlights_bn ? place.highlights_bn : place.highlights;
+  const placeGettingThere = isBN && place.gettingThere_bn ? place.gettingThere_bn : place.gettingThere;
 
   return (
     <div className="py-10 bg-paper dark:bg-ink min-h-screen transition-colors">
@@ -55,11 +62,11 @@ export default function PlaceDetail() {
             </div>
 
             <h1 className="font-serif text-3xl md:text-5xl font-bold text-white leading-tight">
-              {place.name}
+              {placeName}
             </h1>
 
             <p className="mt-2 text-sm md:text-base text-paper/85 max-w-3xl font-sans">
-              {place.shortDescription}
+              {placeShortDesc}
             </p>
           </div>
         </AnimatedReveal>
@@ -74,7 +81,7 @@ export default function PlaceDetail() {
             <div className="bg-white dark:bg-ink-light p-8 rounded-2xl border border-forest/10 dark:border-forest/30 shadow-sm space-y-4">
               <h2 className="font-serif text-2xl font-semibold text-ink dark:text-paper">{t('overviewHeritage')}</h2>
               <p className="text-base text-ink/80 dark:text-paper/85 leading-relaxed font-sans">
-                {place.description}
+                {placeDesc}
               </p>
             </div>
 
@@ -83,7 +90,7 @@ export default function PlaceDetail() {
               <div className="bg-white dark:bg-ink-light p-8 rounded-2xl border border-forest/10 dark:border-forest/30 shadow-sm space-y-4">
                 <h2 className="font-serif text-2xl font-semibold text-ink dark:text-paper">{t('highlightsTitle')}</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-                  {place.highlights.map((highlight, idx) => (
+                  {placeHighlights.map((highlight, idx) => (
                     <div key={idx} className="flex items-center gap-3 p-3 rounded-xl bg-paper-light dark:bg-ink border border-forest/10 dark:border-forest/30">
                       <CheckCircle2 className="w-5 h-5 text-forest dark:text-spice shrink-0" />
                       <span className="font-mono text-xs text-ink dark:text-paper font-medium">{highlight}</span>
@@ -100,7 +107,7 @@ export default function PlaceDetail() {
                 <span>{t('howToGetThere')}</span>
               </h2>
               <p className="text-sm text-ink/80 dark:text-paper/85 leading-relaxed font-sans">
-                {place.gettingThere}
+                {placeGettingThere}
               </p>
             </div>
 
@@ -116,7 +123,7 @@ export default function PlaceDetail() {
                 <span>{t('bestTimeToVisit')}</span>
               </div>
               <p className="text-sm font-sans font-medium text-paper leading-relaxed">
-                {place.bestTimeToVisit}
+                {placeBestTime}
               </p>
             </div>
 

@@ -161,6 +161,10 @@ export const translations = {
     regionHillTracts: "Chittagong Hill Tracts",
     regionRajshahi: "Rajshahi Heritage Circuit",
     copyright: "© " + new Date().getFullYear() + " Government of the People's Republic of Bangladesh. All rights reserved.",
+    footerPrivacy: "Privacy Policy",
+    footerAccessibility: "Accessibility Statement",
+    footerRti: "RTI Desk",
+    footerTerms: "Terms of Service",
 
     // Shared / Detail
     officialAdvisoryDesk: "Official Travel Advisory Desk",
@@ -345,6 +349,10 @@ export const translations = {
     regionHillTracts: "পার্বত্য চট্টগ্রাম",
     regionRajshahi: "রাজশাহী ঐতিহ্য সার্কিট",
     copyright: "© " + new Date().getFullYear() + " গণপ্রজাতন্ত্রী বাংলাদেশ সরকার। সর্বস্বত্ব সংরক্ষিত।",
+    footerPrivacy: "গোপনীয়তা নীতি",
+    footerAccessibility: "অ্যাক্সেসিবিলিটি বিবৃতি",
+    footerRti: "আরটিআই ডেস্ক",
+    footerTerms: "সেবার শর্তাবলী",
 
     // Shared / Detail
     officialAdvisoryDesk: "অফিসিয়াল ট্রাভেল অ্যাডভাইজরি ডেস্ক",
