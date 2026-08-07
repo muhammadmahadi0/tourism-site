@@ -1,0 +1,38 @@
+[
+  {
+    "id": "update-001",
+    "title": "Monsoon Season Coastal & Riverine Safety Guidelines",
+    "severity": "warning",
+    "publishedAt": "2026-08-01",
+    "category": "Weather Alert",
+    "summary": "Heavy monsoon rainfall and high river tides reported across Sylhet, Sunamganj, and the Bay of Bengal coast. Water vessel operators advised to keep updated on sea danger signals.",
+    "details": "The Bangladesh Meteorological Department has issued Signal No. 3 for sea ports. Tourists visiting Saint Martin's Island, Cox's Bazar, and Ratargul Swamp Forest are advised to follow local guide instructions and avoid entering open water during heavy downpours. Boat trips in Ratargul and Tanguar Haor must use life jackets at all times."
+  },
+  {
+    "id": "update-002",
+    "title": "Digital Eco-Permit System Launched for Sundarbans Travel",
+    "severity": "info",
+    "publishedAt": "2026-07-25",
+    "category": "Policy Notice",
+    "summary": "Foreign and domestic tourists can now apply online for Forest Department permits 48 hours prior to entering Sundarbans Reserve Forest.",
+    "details": "To streamline entry at Mongla, Joymoni, and Harbaria checkposts, the Ministry of Environment and Tourism has launched an integrated online entry permit portal. Tour operators can upload passenger manifests directly, eliminating manual paper queues."
+  },
+  {
+    "id": "update-003",
+    "title": "Expanded Visa-on-Arrival Facilities at Hazrat Shahjalal International Airport",
+    "severity": "info",
+    "publishedAt": "2026-07-10",
+    "category": "Visa & Immigration",
+    "summary": "Eligible international tourists can obtain a 30-day Visa-on-Arrival at Dhaka (DAC) and Chittagong (CGP) international airports.",
+    "details": "Visa-on-arrival is available for citizens of over 60 countries traveling for tourism purposes. Travelers must present a confirmed hotel booking, return flight ticket, and minimum $500 USD equivalent in funds. Digital card payment counters are now active at DAC Terminal 1."
+  },
+  {
+    "id": "update-004",
+    "title": "Sajek Valley & Bandarban Hill District Travel Regulations Update",
+    "severity": "warning",
+    "publishedAt": "2026-06-28",
+    "category": "Travel Advisory",
+    "summary": "Foreign passport holders traveling to Hill Tracts districts must register at local district magistrate offices or checkposts upon arrival.",
+    "details": "For safety and security compliance, international travelers planning to visit Sajek Valley, Nilgiri, or Boga Lake are requested to submit passport copies at the Khagrachhari or Bandarban tourism registration desks. Local Chander Gari jeep escorts operate from 8:30 AM to 3:30 PM daily."
+  }
+]
